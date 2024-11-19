@@ -1,0 +1,28 @@
+int aleatoriedade(int valor1, int valor2){
+    int num = rand() %3;
+    switch (num)
+    {
+        case 0:
+            printf("Questao de Soma: %d + %d\n", valor1, valor2);
+        return calcular(valor1, valor2, num);
+        break;
+
+        case 1:
+            printf("Questao de Subtracao: %d - %d\n", valor1, valor2);
+        return (valor1, valor2, num);
+        break;
+    
+        case 2:
+            printf("Questao de Multiplicacao: %d * %d\n", valor1, valor2);
+        return calcular(valor1, valor2, num);
+        break;
+
+        case 3:
+        printf("Questao de Divisao: %d / %d\n", valor1, valor2);
+        return calcular(valor1, valor2, num);
+
+
+    default:
+        break;
+    }
+};
